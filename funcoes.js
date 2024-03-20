@@ -4,9 +4,12 @@ function Trocar(){
 
     if(tipo == "Básico"){
         document.getElementById("imagem").src="basico.png"
+        document.getElementById("valor").innerHTML = "99"
     }else if(tipo == "Esporte"){
         document.getElementById("imagem").src="esporte.png"
+        document.getElementById("valor").innerHTML = "159"
     }else{
         document.getElementById("imagem").src="completo.png"
+        document.getElementById("valor").innerHTML = "199"
     }
 }
